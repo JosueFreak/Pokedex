@@ -1,0 +1,122 @@
+.pokedex-content {
+    max-width: 1400px;
+    margin: 20px auto;
+}
+
+.pokedex_text {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pokedex_text span {
+    color: #ff5353;
+}
+
+.pokedex_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.pokedex_form div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pokedex_input {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+    width: 300px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.pokedex_btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff5353;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.pokedex_btn:hover {
+    background-color: #ff6b6b;
+}
+
+select {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+    width: 200px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    appearance: none;
+}
+
+select option {
+    font-size: 20px;
+}
+
+.pokedex-separation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pokedex_page {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pokedex_list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.pokedex_list li {
+    margin: 0 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.pokedex_list li:hover {
+    color: #f00;
+}
+
+.pokedex_list li:active {
+    transform: scale(0.9);
+}
+
+.pokedex_previus, .pokedex_nextpage {
+    font-size: 1.5rem;
+}
+
+.pokedex_current-page, .pokedex_lastpage {
+    font-size: 1.2rem;
+    opacity: 0.5;
+}
